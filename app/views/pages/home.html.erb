@@ -1,0 +1,16 @@
+
+<div class="container" id="home-container">
+    <div class="jumbotron text-center text-white">
+        <h1 class="display-6"></h1>
+            <p class="lead pt-5">This is my sample page. Here you can add new articles and edit existing ones.</p>
+            <p>Back end build in rails. Front by bootstrap.</p>
+            <hr class="mt-5">
+            <p class="lead">
+                <%= link_to "Sign up!", signup_path, class: "btn btn-primary btn-lg" %>
+            </p>
+            <hr class="mt-2">
+            <p class="lead pt-5"></p>
+            <%= link_to 'Articles listing', articles_path %>
+            <%= link_to 'About page', about_path %>
+    </div>
+</div>

@@ -1,0 +1,78 @@
+@import "bootstrap";
+
+.navbar {
+    background-color: #000000 !important;
+    }
+    
+    .nav-link{
+      color: #FFFFFF !important;
+    }
+    
+    .navbar-brand {
+      color: #FFFFFF !important;
+    font-size: 3rem;
+    }
+
+    .jumbotron {
+        background-image: asset-url('jumbotron.jpg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        height: 435px;
+      }
+
+      #home-container{
+        margin-top: 25px;
+      }
+
+      #logo {
+        color: #FFFFFF !important;
+        text-transform: uppercase;
+        letter-spacing: -1px;
+        float: left;
+        font-weight: bold;
+        font-size: 1.7em
+      }
+
+
+      html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+  background-color: #D0D0D0;
+}
+
+.italic {
+    font-style: italic;
+  }
+
+  .apple_pagination {
+    background: #D0D0D0;
+    border: none;
+    text-align: center;
+    padding: 1em;
+    cursor: default; }
+    .apple_pagination a, .apple_pagination span {
+      padding: 0.2em 0.3em; }
+    .apple_pagination .disabled {
+      color: #aaaaaa; }
+    .apple_pagination .current {
+      font-style: normal;
+      font-weight: bold;
+      background-color: #bebebe;
+      display: inline-block;
+      width: 1.4em;
+      height: 1.4em;
+      line-height: 1.5;
+      -moz-border-radius: 1em;
+      -webkit-border-radius: 1em;
+      border-radius: 1em;
+      text-shadow: rgba(255, 255, 255, 0.8) 1px 1px 1px; }
+    .apple_pagination a {
+      text-decoration: none;
+      color: black; }
+      .apple_pagination a:hover, .apple_pagination a:focus {
+        text-decoration: underline; }
